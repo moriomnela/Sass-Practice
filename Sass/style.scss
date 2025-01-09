@@ -1,0 +1,17 @@
+.bg {
+    color: red;
+    background-color: #fff;
+}
+.main{
+    .menu{
+       ul{
+        li{
+            a{
+                &:hover{
+                    
+                }
+            }
+        }
+       }
+    }
+}
