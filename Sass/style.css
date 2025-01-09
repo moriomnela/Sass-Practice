@@ -3,4 +3,23 @@
   background-color: #fff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 1000px;
+  margin: 100px auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.main .menu {
+  background-color: red;
+  padding: 20px;
+}
+.main .menu ul li a:hover {
+  color: yellow;
+}
+
 /*# sourceMappingURL=style.css.map */
