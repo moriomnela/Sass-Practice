@@ -12,14 +12,20 @@
     border: 1px solid #ddd;
     padding: 20px;
     .menu{
-      background-color: #54fcfb;
+      background-color: #34f;
       padding: 20px;
        ul{
         list-style: none;
+        display: flex;
         li{
             a{
+              padding: 10px 20px;
+              display: block;
+              text-decoration: none;
+              color: #fff;
+              transition: .3s;
                 &:hover{
-                    color: yellow;
+                    color: red;
                 }
             }
         }
