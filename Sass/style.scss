@@ -1,3 +1,6 @@
+$heading_color: #e3e;
+$btn_background: #3f3;
+$heading_font: "Areal";
 .bg {
     color: red;
     background-color: #fff;
@@ -12,7 +15,7 @@
     border: 1px solid #ddd;
     padding: 20px;
     .menu{
-      background-color: #34f;
+      background-color: $heading_color;
       padding: 20px;
        ul{
         list-style: none;
@@ -25,7 +28,7 @@
               color: #fff;
               transition: .3s;
                 &:hover{
-                    color: red;
+                    color: yellow;
                 }
             }
         }

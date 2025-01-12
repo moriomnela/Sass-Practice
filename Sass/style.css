@@ -1,3 +1,4 @@
+@import "assets/common/_base.scss";
 .bg {
   color: red;
   background-color: #fff;
@@ -15,7 +16,7 @@
   padding: 20px;
 }
 .main .menu {
-  background-color: #34f;
+  background-color: #e3e;
   padding: 20px;
 }
 .main .menu ul {
@@ -30,7 +31,7 @@
   transition: 0.3s;
 }
 .main .menu ul li a:hover {
-  color: red;
+  color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
