@@ -1,14 +1,9 @@
-$heading_color: #e3e;
-$btn_background: #3f3;
-$heading_font: "Areal";
+@import "./assets/common/base";
 .bg {
     color: red;
     background-color: #fff;
   }
-  *{
-    margin: 0;
-    padding: 0;
-  }
+ 
   .main{
     width: 1000px;
     margin: 100px auto;
@@ -22,11 +17,7 @@ $heading_font: "Areal";
         display: flex;
         li{
             a{
-              padding: 10px 20px;
-              display: block;
-              text-decoration: none;
-              color: #fff;
-              transition: .3s;
+             @include header;
                 &:hover{
                     color: yellow;
                 }
@@ -35,4 +26,13 @@ $heading_font: "Areal";
        }
     }
   }
-  
+  .services{
+    .single-service{
+      h4{
+        @include title;   
+      }
+      p{
+        @include title; 
+      }
+    }
+  }

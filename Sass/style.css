@@ -1,12 +1,17 @@
-@import "assets/common/_base.scss";
-.bg {
-  color: red;
-  background-color: #fff;
-}
-
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  color: rgba(102, 221, 153, 0.9333333333);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.bg {
+  color: red;
+  background-color: #fff;
 }
 
 .main {
@@ -16,7 +21,7 @@
   padding: 20px;
 }
 .main .menu {
-  background-color: #e3e;
+  background-color: #333;
   padding: 20px;
 }
 .main .menu ul {
@@ -32,6 +37,19 @@
 }
 .main .menu ul li a:hover {
   color: yellow;
+}
+
+.services .single-service h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: "Areal";
+}
+.services .single-service p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: "Areal";
 }
 
 /*# sourceMappingURL=style.css.map */
